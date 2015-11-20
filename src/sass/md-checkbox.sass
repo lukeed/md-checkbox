@@ -1,3 +1,43 @@
+/**
+ * MD Checkbox Styles
+ */
+
 @import vars
 
-//
+.md-checkbox
+  input
+    &:checked + .md-checkbox--fake::before
+      height: $checkbox-size/2
+      border-color: $checkbox-active-color
+      border-top-style: none
+      border-right-style: none
+      transform: rotate(-45deg)
+
+  // animated box
+  &--fake
+    cursor: pointer
+    width: $checkbox-size
+    height: $checkbox-size
+    &::before,
+    &::after
+      position: relative
+      content: ''
+
+    &::before
+      +transition($checkbox-transition)
+      display: block
+      z-index: 1
+      width: 100%
+      height: 100%
+      border-radius: $checkbox-border-radius
+      border: 2px solid $checkbox-inactive-color
+    &::after
+      position: absolute
+      width: $checkbox-size
+      height: $checkbox-size
+      background: $checkbox-inner-color
+      cursor: pointer
+
+    // error class added to hidden input
+    &.with--error::before
+      border-color: $input-error-border
