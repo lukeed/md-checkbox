@@ -3,6 +3,7 @@
  */
 
 @import vars
+@import mixins
 
 .md-checkbox
   input
@@ -11,7 +12,7 @@
       border-color: $checkbox-active-color
       border-top-style: none
       border-right-style: none
-      transform: rotate(-45deg)
+      +transform(rotate(-45deg))
 
   // animated box
   &--fake
@@ -24,13 +25,13 @@
       content: ''
 
     &::before
-      +transition($checkbox-transition)
       display: block
       z-index: 1
       width: 100%
       height: 100%
       border-radius: $checkbox-border-radius
       border: 2px solid $checkbox-inactive-color
+      +transition($checkbox-transition)
     &::after
       position: absolute
       top: 0
