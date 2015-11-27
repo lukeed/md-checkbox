@@ -6,6 +6,12 @@
 @import mixins
 
 .md-checkbox
+  position: relative
+  display: inline-block
+  font-size: $checkbox-font-size
+  line-height: 2 * $checkbox-size - 2
+  cursor: pointer
+
   input
     &:checked + .md-checkbox--fake::before
       height: $checkbox-size/2
