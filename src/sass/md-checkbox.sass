@@ -13,6 +13,10 @@
   cursor: pointer
 
   input
+    +size(1px)
+    opacity: 0 // Hide input, but leave it available for tabbing
+    // display: none // jk
+
     &:checked + .md-checkbox--fake::before
       height: $checkbox-size/2
       border-color: $checkbox-active-color
@@ -22,6 +26,9 @@
 
   // animated box
   &--fake
+    display: block
+    float: left
+    margin: 10px 9px 10px 10px
     cursor: pointer
     width: $checkbox-size
     height: $checkbox-size
