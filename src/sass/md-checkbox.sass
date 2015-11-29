@@ -24,6 +24,7 @@
       border-right-style: none
       +transform(rotate(-45deg))
 
+  // basic text label & text wrapper
   > div
     line-height: $checkbox-font-size
     display: inline-block
@@ -57,6 +58,21 @@
       height: 1.1 * $checkbox-size
       background: $checkbox-inner-color
       cursor: pointer
+
+  // if has extra text ('small' tag)
+  &.has--text
+    > div
+      padding-left: 45px
+    // extra label text
+    small
+      display: block
+      line-height: 15px
+      color: #5B5B5B
+      opacity: 0.65
+      padding-top: 2px
+    .md-checkbox--fake
+      position: absolute
+      top: -8px
 
     // error class added to hidden input
     &.with--error::before
