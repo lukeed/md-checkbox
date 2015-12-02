@@ -7,7 +7,7 @@
     display: inline-block;
     vertical-align: top;
     width: calc(50% - 20px);
-    margin: 5px;
+    margin: 0 5px 20px;
 }
 
 body, html {
