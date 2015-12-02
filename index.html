@@ -1,102 +1,118 @@
 <html>
 <head>
-	<title>MD Checkbox</title>
-	<meta name="description" content="Material Design Animated Checkbox">
-	<meta name="author" content="Luke Edwards">
-	<link rel="stylesheet" href="./md-checkbox.css">
-	<style>
-		.block {
-			display: block;
-		}
-	</style>
+<title>MD Checkbox</title>
+<meta name="description" content="Material Design Animated Checkbox">
+<meta name="author" content="Luke Edwards">
+<meta name="viewport" content="initial-scale=1" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+<link rel="stylesheet" href="demo.css">
+<link rel="stylesheet" href="md-checkbox.css">
 </head>
 <body>
-	<h2>Basic Demo</h2>
-	<label class="md-checkbox">
-		<input type="checkbox" name="demo1[]">
-		<span class="md-checkbox--fake"></span>
-	</label>
-	<label class="md-checkbox">
-		<input type="checkbox" name="demo1[]" checked="true">
-		<span class="md-checkbox--fake"></span>
-	</label>
-	<label class="md-checkbox">
-		<input type="checkbox" name="demo1[]">
-		<span class="md-checkbox--fake"></span>
-	</label>
+	<header role="banner">
+		<h1>Material Design Animated Checkbox</h1>
+	</header>
 
-	<h2>With Labels</h2>
-	<label class="md-checkbox block">
-		<input type="checkbox" name="demo2[]">
-		<span class="md-checkbox--fake"></span>
+	<main role="main">
 		<div>
-			This is a label
-		</div>
-	</label>
-	<label class="md-checkbox block">
-		<input type="checkbox" name="demo2[]" checked="true">
-		<span class="md-checkbox--fake"></span>
-		<div>
-			This is a label
-		</div>
-	</label>
-	<label class="md-checkbox block">
-		<input type="checkbox" name="demo2[]">
-		<span class="md-checkbox--fake"></span>
-		<div>
-			This is a label
-		</div>
-	</label>
+			<section>
+				<div class="demo">
+					<h2>Basic Demo</h2>
+					<label class="md-checkbox">
+						<input type="checkbox" name="demo1[]">
+						<span class="md-checkbox--fake"></span>
+					</label>
+					<label class="md-checkbox">
+						<input type="checkbox" name="demo1[]" checked="true">
+						<span class="md-checkbox--fake"></span>
+					</label>
+					<label class="md-checkbox">
+						<input type="checkbox" name="demo1[]">
+						<span class="md-checkbox--fake"></span>
+					</label>
+				</div>
 
-	<h2>With Extra Text</h2>
-	<label class="md-checkbox has--text block">
-		<input type="checkbox" name="demo3[]">
-		<span class="md-checkbox--fake"></span>
-		<div>
-			This is a label
-			<small>Helper text just in case you need it!</small>
-		</div>
-	</label>
-	<label class="md-checkbox has--text block">
-		<input type="checkbox" name="demo3[]" checked="true">
-		<span class="md-checkbox--fake"></span>
-		<div>
-			This is a label
-			<small>Helper text just in case you need it!</small>
-		</div>
-	</label>
-	<label class="md-checkbox has--text block">
-		<input type="checkbox" name="demo3[]">
-		<span class="md-checkbox--fake"></span>
-		<div>
-			This is a label
-			<small>Helper text just in case you need it!</small>
-		</div>
-	</label>
+				<div class="demo">
+					<h2>With Labels</h2>
+					<label class="md-checkbox block">
+						<input type="checkbox" name="demo2[]">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+						</div>
+					</label>
+					<label class="md-checkbox block">
+						<input type="checkbox" name="demo2[]" checked="true">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+						</div>
+					</label>
+					<label class="md-checkbox block">
+						<input type="checkbox" name="demo2[]">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+						</div>
+					</label>
+				</div>
 
-	<h2>With Error Styles</h2>
-	<label class="md-checkbox has--text with--error block">
-		<input type="checkbox" name="demo4[]">
-		<span class="md-checkbox--fake"></span>
-		<div>
-			This is a label
-			<small>Helper text just in case you need it!</small>
+				<div class="demo">
+					<h2>With Extra Text</h2>
+					<label class="md-checkbox has--text block">
+						<input type="checkbox" name="demo3[]">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+							<small>Helper text just in case you need it!</small>
+						</div>
+					</label>
+					<label class="md-checkbox has--text block">
+						<input type="checkbox" name="demo3[]" checked="true">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+							<small>Helper text just in case you need it!</small>
+						</div>
+					</label>
+					<label class="md-checkbox has--text block">
+						<input type="checkbox" name="demo3[]">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+							<small>Helper text just in case you need it!</small>
+						</div>
+					</label>
+				</div>
+
+				<div class="demo">
+					<h2>With Error Styles</h2>
+					<label class="md-checkbox has--text with--error block">
+						<input type="checkbox" name="demo4[]">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+							<small>Helper text just in case you need it!</small>
+						</div>
+					</label>
+					<label class="md-checkbox with--error block">
+						<input type="checkbox" name="demo4[]">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+						</div>
+					</label>
+					<label class="md-checkbox has--text with--error block">
+						<input type="checkbox" name="demo4[]">
+						<span class="md-checkbox--fake"></span>
+						<div>
+							This is a label
+							<small>Helper text just in case you need it!</small>
+						</div>
+					</label>
+				</div>
+			</section>
 		</div>
-	</label>
-	<label class="md-checkbox with--error block">
-		<input type="checkbox" name="demo4[]">
-		<span class="md-checkbox--fake"></span>
-		<div>
-			This is a label
-		</div>
-	</label>
-	<label class="md-checkbox has--text with--error block">
-		<input type="checkbox" name="demo4[]">
-		<span class="md-checkbox--fake"></span>
-		<div>
-			This is a label
-			<small>Helper text just in case you need it!</small>
-		</div>
-	</label>
+	</main>
 </body>
 </html>
