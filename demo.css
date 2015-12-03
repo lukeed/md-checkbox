@@ -10,10 +10,14 @@
     margin: 0 5px 20px;
 }
 
+a {
+	color: #3F51B5;
+}
+
 body, html {
     height: 100%;
     color: rgba(0,0,0,.87);
-    background: #fff;
+    background: white;
     position: relative;
     font-family: 'Roboto', 'Noto', sans-serif;
     -webkit-tap-highlight-color: transparent;
@@ -40,7 +44,7 @@ body {
 
 header {
 	position: relative;
-	height: 200px;
+	height: 220px;
 	text-align: center;
     background-color: #3F51B5;
 }
@@ -68,7 +72,7 @@ main > div {
 }
 
 main > div > section {
-	margin: 140px auto 60px;
+	margin: 140px auto 40px;
 	background: white;
     max-width: 800px;
     padding: 10px 18px;
@@ -77,4 +81,33 @@ main > div > section {
 
 main h2 {
 	font-size: 20px;
+}
+
+footer {
+	max-width: 800px;
+	margin: 0 auto 40px;
+	text-align: center;
+}
+
+footer h3 {
+	font-size: 20px;
+	margin: 0 auto 5px
+}
+
+footer ul {
+	text-align: left;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+footer li {
+    width: calc(33% - 20px);
+    display: inline-block;
+    margin: 0 5px;
+}
+
+footer p {
+	margin: 40px auto 0;
+    font-size: 16px;
 }
