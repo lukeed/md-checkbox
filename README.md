@@ -1,6 +1,8 @@
 # md-checkbox
 > Material Design animated checkbox component
 
+![md-checkbox](demo.gif)
+
 This is the plain HTML version. See [alternate versions](#alternate-versions).
 
 ## Installation
