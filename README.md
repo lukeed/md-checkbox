@@ -22,5 +22,5 @@ Requires you have `node-sass` and/or any other SASS/SCSS-capable build tool inst
 
 If resorting to `node-sass` alone, run:
 ```
-node-sass --output-style compressed src/sass/md-checkbox.sass md-checkbox.css
+node-sass --output-style compressed sass/md-checkbox.sass md-checkbox.css
 ```
