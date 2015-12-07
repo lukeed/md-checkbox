@@ -1,6 +1,6 @@
 {
   "name": "md-checkbox",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Material Design animated checkbox input",
   "main": "index.js",
   "scripts": {
