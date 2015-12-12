@@ -3,6 +3,8 @@
 
 ![md-checkbox](demo.gif)
 
+[Demo](http://lukeed.github.io/md-checkbox/)
+
 This is the plain HTML version. See [alternate versions](#alternate-versions).
 
 ## Installation
