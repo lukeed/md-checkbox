@@ -1,6 +1,6 @@
 {
   "name": "md-checkbox",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Material Design animated checkbox input",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,6 @@
   "bugs": {
     "url": "https://github.com/lukeed/md-checkbox/issues"
   },
-  "homepage": "https://github.com/lukeed/md-checkbox#readme"
+  "homepage": "https://github.com/lukeed/md-checkbox",
+  "readmeFilename": "README.md"
 }
